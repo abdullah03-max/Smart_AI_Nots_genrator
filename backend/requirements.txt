@@ -1,0 +1,30 @@
+# backend/requirements.txt
+
+# Web framework
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+
+# Request/response validation
+pydantic==2.9.2
+pydantic-settings==2.5.2
+
+# HTTP client for AI API calls
+httpx==0.27.2
+
+# JWT verification for Supabase auth tokens
+PyJWT==2.9.0
+
+# Supabase Python client (for server-side operations)
+supabase==2.9.0
+
+# Environment variables
+python-dotenv==1.0.1
+
+# File upload support
+python-multipart==0.0.12
+
+# Testing
+pytest==8.3.3
+pytest-asyncio==0.24.0
+httpx==0.27.2
+pypdf==6.12.1
