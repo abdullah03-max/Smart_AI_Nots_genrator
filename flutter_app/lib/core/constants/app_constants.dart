@@ -12,7 +12,7 @@ class AppConstants {
       'sb_publishable_AFCryjRNb4gD8r0A9nAWwA_q5M2XUlU';
 
   // Backend API Base URL — update when deploying
-  static const String apiBaseUrl = 'http://localhost:8000'; // Physical device with adb reverse, or iOS simulator
+  static const String apiBaseUrl = 'https://smart-ai-nots-genrator.vercel.app'; // Production server on Vercel
   // static const String apiBaseUrl = 'http://10.64.180.175:8000'; // Connected physical device over Wi-Fi
 
   // Supabase Table Names
